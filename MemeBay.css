@@ -1,0 +1,17 @@
+
+			@font-face {
+		font-family: "NeouBold";
+		src: url('Neou-Bold.otf'),
+			 url('Neou-Bold.ttf');
+		}
+
+		h1 {
+			font-family: "NeouBold";
+			margin: 60px auto;
+			text-align: center;
+			color: white;
+			font-size: 60px;
+		}
+		body {
+			background-color: #8C001A;
+		}
