@@ -7,11 +7,47 @@
 
 		h1 {
 			font-family: "NeouBold";
-			margin: 60px auto;
+			margin: 130px auto;
 			text-align: center;
 			color: white;
 			font-size: 60px;
+			letter-spacing: 81px;
+			left: 10px;
+			width: 50%;
+		}
+
+			li {
+				float: left;
+				list-style-type: none;
+				border: 1px solid;
+				padding: 0.1em 2em;
+				background-color: #96897f;
+				font-family: "NeouBold";
+				margin: 0px 4.66%;
+				text-align: center;
+				color: white;
+				font-size: 15px;
+				letter-spacing: 3px;
+				left: 10px;
+				width: 24%;
+				box-sizing: border-box;
 		}
 		body {
 			background-color: #8C001A;
+		}
+
+
+		ul:after {
+			content: ".";
+			visibility: hidden;
+			display: block;
+			height: 0;
+			clear: both;
+			font-size: 0;
+		}
+
+		ul {
+			margin: 0 auto;
+			padding: 0;
+		    width: 50%;
 		}
